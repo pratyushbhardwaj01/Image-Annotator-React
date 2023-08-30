@@ -1,19 +1,15 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-// import Carousel from "./Carousel";
 import ImageAnnotator from "./ImageAnnotator";
 import Image1 from "../src/assests/Pic1.png";
-import Image2 from "../src/assests/Pic1.png";
-import Image3 from "../src/assests/Pic1.png";
-import Image4 from "../src/assests/Pic1.png";
-import Image5 from "../src/assests/Pic1.png";
-const images = [Image1, Image2, Image3, Image4, Image5];
+import Image2 from "../src/assests/Pic2.png";
+import Image3 from "../src/assests/Pic3.png";
+
+const images = [Image1, Image2, Image3];
 const defaultImageAnnotatorState = {
   0: [],
   1: [],
   2: [],
-  3: [],
-  4: [],
 };
 
 function App() {
